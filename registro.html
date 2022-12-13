@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+        <div class="registro-box">
+            <img src="img/logoRB.png" class="avatar" alt="Avatar Image">
+            <h1>Registro</h1>
+            <form action="" method="">
+                <!-- USUARIO INPUT -->
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario" minlength="3" maxlength="12" placeholder="Usuario" required>
+                <!-- NOMBRE INPUT -->
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" minlength="3" maxlength="35" placeholder="Nombre completo" required>
+                <!-- CORREO INPUT -->
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo" minlength="12" maxlength="30" placeholder="correo" required>
+                <!-- PASSWORD INPUT -->
+                <label for="clave">Clave</label>
+                <input type="password" name="clave" id="clave" minlength="8" maxlength="12" placeholder="clave de acceso" required>
+                <label for="clave2">Reingrese clave</label>
+                <input type="password" name="clave2" id="clave2" minlength="8" maxlength="12" placeholder="reingrese clave" required>
+                <input type="submit" value="Registrar">
+            </form>
+            <a href="index.html">Regresar</a><br>
+        </div>
+    </body>
+</html>
