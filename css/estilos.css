@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/box.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.opciones {
+    display: flex;
+    background-color: rgb(184, 238, 246);
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.opciones div {
+    margin: 10px;
+    flex-basis: auto;
+}
+
+.opciones a {
+    color: rgb(14, 14, 242);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    color: rgb(2, 2, 2);
+}
+
+.opciones a:active {
+    color: rgb(243, 13, 5);
+}
+
+ul.horizontal {
+    margin: 0;
+    padding: 0;
+}
+
+ul.horizontal li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
